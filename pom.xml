@@ -8,8 +8,8 @@
   <description>Generated project sample-kogito</description>
 
   <properties>
-    <quarkus.version>0.18.0</quarkus.version>
-    <kogito.version>8.0.0-SNAPSHOT</kogito.version>
+    <quarkus.version>0.19.1</quarkus.version>
+    <kogito.version>0.2.0</kogito.version>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -62,6 +62,11 @@
     <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>jbpm-flow</artifactId>
+      <version>${kogito.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.kie.kogito</groupId>
+      <artifactId>drools-core</artifactId>
       <version>${kogito.version}</version>
     </dependency>
   </dependencies>
